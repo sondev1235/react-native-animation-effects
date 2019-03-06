@@ -1,0 +1,28 @@
+{
+  "name": "react-native-animation-effects",
+  "version": "0.0.1",
+  "description": "react native animation view image container effects",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sondev1235/react-native-animation-effects.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "animation",
+    "effects",
+    "container",
+    "view",
+    "scale"
+  ],
+  "author": "sondev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sondev1235/react-native-animation-effects/issues"
+  },
+  "homepage": "https://github.com/sondev1235/react-native-animation-effects#readme"
+}
