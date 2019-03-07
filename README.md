@@ -9,11 +9,26 @@ react native chonse select tab horizontal
 ## Usage
 #### Import library
 ```javascript
-import { Blink } from 'react-native-animation-effects';
-```
-#### Render components
-```javascript
-<Blink>
-  ...
-</Blink>
+import React, { Component } from 'react';
+import {
+  Blink,
+  Scale,
+  Bounce,
+  Rotate,
+  Circle,
+  SlideLeft,
+  SlideInTop,
+  SlideInBottom
+  ScaleSlide,
+} from 'react-native-animation-effects';
+ 
+class Example extends Component {
+  render() {
+    return (
+      <Blink>
+      	// children components
+      </Blink>
+    );
+  }
+}
 ```
