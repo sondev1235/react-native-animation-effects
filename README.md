@@ -7,28 +7,40 @@ react native chonse select tab horizontal
 	yarn add react-native-animation-effects
 
 ## Usage
-#### Import library
+#### Example
 ```javascript
 import React, { Component } from 'react';
+import { StyleSheet } from 'react-native';
 import {
-  Blink,
-  Scale,
-  Bounce,
-  Rotate,
-  Circle,
-  SlideLeft,
-  SlideInTop,
-  SlideInBottom
-  ScaleSlide,
+    Blink,
+    Scale,
+    Bounce,
+    Rotate,
+    Circle,
+    SlideLeft,
+    SlideInTop,
+    SlideInBottom,
+    ScaleSlide
 } from 'react-native-animation-effects';
- 
-class Example extends Component {
-  render() {
-    return (
-      <Blink>
-      	// children components
-      </Blink>
-    );
-  }
+
+export default class ExampleComponent extends Component {
+    render() {
+        return (
+            <View style={styles.container}>
+                <Blink>
+                    <Text>Animation blink example</Text>
+                </Blink>
+                <Bounce>
+                    {/* <ExamComponent /> */}
+                </Bounce>
+            </View>
+        );
+    }
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1
+    }
+});
 ```
